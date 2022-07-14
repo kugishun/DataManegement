@@ -36,7 +36,7 @@ int main(){
         }
     }
     printf("Heads: %d, Tails: %d\n",H,T);
-    if(H>T)printf("You Won\n");
-    else printf("You lost\n");
+    if(H>T)printf("%s Won\n",name);
+    else printf("%s lost\n",name);
     return 0;
 }
