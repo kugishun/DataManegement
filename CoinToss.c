@@ -4,9 +4,7 @@
 
 int main(){
     int judge;
-    int n=0;
-    int T=0;
-    int H=0;
+    int n=0,T=0,H=0;
     char name[100];
 
     printf("Who are you?\n> ");
@@ -28,7 +26,7 @@ int main(){
         printf("Round %d: ",k+1);
         if(n>0){
             printf("Heads\n");
-            H++; 
+            H++;
         }
         else{
             printf("Tails\n");
