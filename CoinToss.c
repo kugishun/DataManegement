@@ -7,6 +7,12 @@ int main(){
     int n=0;
     int T=0;
     int H=0;
+    char name[100];
+
+    printf("Who are you?\n> ");
+    scanf("%s",name);
+
+    printf("Hello, %s!",name);
 
     srand((unsigned int)time(NULL));
 
